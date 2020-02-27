@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Branches">
+      <UniqueIdentifier>{2e769f3b-6d4c-45b8-8d4c-f52a50bfdaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Branches\Prague">
+      <UniqueIdentifier>{487928de-83f8-474d-a3bf-b58c6b47686c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Branches\Paris">
+      <UniqueIdentifier>{79de4ce1-ec12-46cb-bb24-5d5394bc6c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Branches\London">
+      <UniqueIdentifier>{87648f24-5ce2-4b8d-a1b7-d464d2d19048}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Admins%27 logins.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Admins%27 passwords.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Hotels.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="London rooms status.txt">
+      <Filter>Resource Files\Branches\London</Filter>
+    </Text>
+    <Text Include="Paris rooms status.txt">
+      <Filter>Resource Files\Branches\Paris</Filter>
+    </Text>
+    <Text Include="Prague rooms status.txt">
+      <Filter>Resource Files\Branches\Prague</Filter>
+    </Text>
+    <Text Include="London rooms%27 types.txt">
+      <Filter>Resource Files\Branches\London</Filter>
+    </Text>
+    <Text Include="Paris rooms%27 types.txt">
+      <Filter>Resource Files\Branches\Paris</Filter>
+    </Text>
+    <Text Include="Prague rooms%27 types.txt">
+      <Filter>Resource Files\Branches\Prague</Filter>
+    </Text>
+    <Text Include="London rooms%27 prices.txt">
+      <Filter>Resource Files\Branches\London</Filter>
+    </Text>
+    <Text Include="Paris rooms%27 prices.txt">
+      <Filter>Resource Files\Branches\Paris</Filter>
+    </Text>
+    <Text Include="Prague rooms%27 prices.txt">
+      <Filter>Resource Files\Branches\Prague</Filter>
+    </Text>
+    <Text Include="London Residents.txt">
+      <Filter>Resource Files\Branches\London</Filter>
+    </Text>
+    <Text Include="Paris Residents.txt">
+      <Filter>Resource Files\Branches\Paris</Filter>
+    </Text>
+    <Text Include="Prague  Residents.txt">
+      <Filter>Resource Files\Branches\Prague</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
